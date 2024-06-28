@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.atlassian {
+ display:flex; 
+}
+
+#trello{
+    height: 1.3rem;
+    margin-top: 30px;
+    padding-right: 10px;
+}
+nav{
+  padding:2px;
+}
+#atlassian{
+  top:0.1px;
+  height: 1.5rem;
+  padding-left: 2px;
+}
+
+#trello_text {
+  position: relative;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  top:-10px;
+  font-size: 2rem;
+}
+
+nav{
+    display: flex;
+    padding: 0;
+    margin-left: 19rem;
+}
+
+.nav-list ul li {
+  list-style:none;
+  display:flex;
+  gap:2rem;
+  margin-left: 2rem;
+  justify-content:space-between;
+}
+
+.nav-list ul li a{
+  position: relative;
+  top: 1.6rem;
+  text-decoration : none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,sans-serif;
+  color: black;
+}
+
+.nav-list ul li a:hover {
+  color: #4169E1;
+}
+
+.login-button {
+  display: flex;
+  gap:2rem;
+}
+
+.login-button a{
+  position:relative;
+  text-decoration:none;
+  color:black;
+  font-family:Arial,sans-serif;
+  font-weight : 400;
+  margin-left:27.5rem;
+  top:1.6rem;
+  font-size:1.2rem;
+}
+
+.login-button p{
+  position: relative;
+  padding-top:1.6rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  background: royalblue;
+  font-size:1.2rem;
+  font-family:Arial,sans-serif;
+  color:white;
+  border-radius : 2px; 
+}
+
+.login-button p:hover{
+  background: #3A5ECA;
+  border-top:none;
+}
+
+.premium{
+  display: block;
+  padding:1.6rem;
+  background: aliceblue;
+}
+
+.premium p {
+  align-items:center;
+  justify-content:center;
+  font-family:Arial,sans-serif;
+  margin-left:26.5rem; 
+}
+
