@@ -1,52 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .atlassian {
- display:flex; 
+  display: flex;
 }
 
-#trello{
-    height: 1.3rem;
-    margin-top: 30px;
-    padding-right: 10px;
+#trello {
+  height: 1.3rem;
+  margin-top: 30px;
+  padding-right: 10px;
 }
-nav{
-  padding:2px;
+
+nav {
+  padding: 2px;
 }
-#atlassian{
-  top:0.1px;
+
+#atlassian {
+  top: 0.1px;
   height: 1.5rem;
   padding-left: 2px;
 }
 
 #trello_text {
   position: relative;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  top:-10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  top: -10px;
   font-size: 2rem;
 }
 
-nav{
-    display: flex;
-    padding: 0;
-    margin-left: 19rem;
+nav {
+  display: flex;
+  padding: 0;
+  margin-left: 19rem;
 }
 
 .nav-list ul li {
-  list-style:none;
-  display:flex;
-  gap:2rem;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
   margin-left: 2rem;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.nav-list ul li a{
+.nav-list ul li a {
   position: relative;
   top: 1.6rem;
-  text-decoration : none;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,sans-serif;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: black;
 }
 
@@ -54,49 +56,154 @@ nav{
   color: #4169E1;
 }
 
+.fa {
+  position: relative;
+  top: 0.1rem;
+  margin-left: 2px;
+}
+
+.fa:hover {
+  color: #4169E1;
+}
+
 .login-button {
   display: flex;
-  gap:2rem;
+  gap: 2rem;
 }
 
-.login-button a{
-  position:relative;
-  text-decoration:none;
-  color:black;
-  font-family:Arial,sans-serif;
-  font-weight : 400;
-  margin-left:27.5rem;
-  top:1.6rem;
-  font-size:1.2rem;
-}
-
-.login-button p{
+.login-button a {
   position: relative;
-  padding-top:1.6rem;
-  padding-left:1rem;
-  padding-right:1rem;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  margin-left: 27.5rem;
+  top: 1.6rem;
+  font-size: 1.2rem;
+}
+
+.login-button p {
+  position: relative;
+  padding-top: 1.6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background: royalblue;
-  font-size:1.2rem;
-  font-family:Arial,sans-serif;
-  color:white;
-  border-radius : 2px; 
+  font-size: 1.2rem;
+  font-family: Arial, sans-serif;
+  color: white;
+  border-radius: 2px;
 }
 
-.login-button p:hover{
+.login-button p:hover {
   background: #3A5ECA;
-  border-top:none;
+  border-top: none;
 }
 
-.premium{
+.premium {
   display: block;
-  padding:1.6rem;
+  padding: 1.6rem;
   background: aliceblue;
 }
 
 .premium p {
-  align-items:center;
-  justify-content:center;
-  font-family:Arial,sans-serif;
-  margin-left:26.5rem; 
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  margin-left: 26.5rem;
 }
 
+.hero {
+  position: relative;
+  background: linear-gradient(to top right, purple, violet);
+  height: 70vh;
+  display: flex;
+}
+
+.hero .text_hero h1 {
+  position: relative;
+  top: 8rem;
+  left: 26rem;
+  color: white;
+  font-size: 2.7rem;
+  font-family: Arial, sans-serif
+}
+
+.hero .text_hero_small {
+  position: relative;
+  top: 10rem;
+  left: 26rem;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
+
+.hero .hero_img img {
+  margin-left: 13rem;
+  margin-top: 2.6rem;
+  height: 90%;
+}
+
+.hero .email {
+  display: flex;
+  margin-left: 26rem;
+  margin-top: 13rem;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.hero .email input {
+  padding: 1.0rem;
+  border: 2px solid white;
+  border-radius: 4px;
+  color: grey;
+  font-size: 1rem;
+}
+
+.hero .email button {
+  padding: 1rem;
+  color: white;
+  background: royalblue;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.hero .email button:hover {
+  background: #3A5ECA;
+}
+
+.hero a {
+  margin-left: 26rem;
+  color: whitesmoke;
+}
+
+.hero .fa-play {
+  color: whitesmoke;
+}
+
+.hero a,
+.fa-play:hover {
+  color: white;
+}
+
+.custom-shape-divider-bottom-1719654144 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1719654144 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 67px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1719654144 .shape-fill {
+  fill: #FFFFFF;
+}
